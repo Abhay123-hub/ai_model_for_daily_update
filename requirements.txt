@@ -17,5 +17,7 @@ streamlit
 langchain-openai
 ipykernel
 chromadb 
-fastapi==0.95.2
+fastapi
 uvicorn==0.22.0
+httpx
+colorama
