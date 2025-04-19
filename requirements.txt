@@ -1,23 +1,31 @@
-langchain_community
-tiktoken
-langchainhub
-langchain
+# Core LangChain + LangGraph stack
+langchain==0.2.1
 langgraph
 langserve==0.0.37
-pydantic==1.10.12
-httpx==0.24.1
-python-dotenv
-google-generativeai
+langchainhub
+langchain-openai
 langchain-google-genai
 langchain-groq
 langchain-nomic
+langchain_community
 langchain-text-splitters
-sentence-transformers 
-streamlit
-langchain-openai
-ipykernel
-chromadb 
+
+# LLMs and tokenizer
+google-generativeai
+tiktoken
+sentence-transformers
+
+# FastAPI stack
 fastapi
 uvicorn==0.22.0
-httpx
+httpx==0.24.1
+python-dotenv
+
+# Others
+chromadb
 colorama
+ipykernel
+streamlit
+
+# Dependency pin
+pydantic==1.10.12
